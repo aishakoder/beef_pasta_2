@@ -5,19 +5,29 @@ body{
 
 .top_container{
     display: flex;
+    flex-direction: row;
+    
 
+}
+
+.logo_con{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 img{
-    justify-content: flex-start;
+    align-self: flex-start;
 }
 h3{
-    justify-content: flex-start;
+    align-self: flex-start;
     font-size: 20px;
     font-weight: bold;
 }
 button{
-    justify-content: end;
+    align-self: flex-end;
+    flex: 2;
     
     
 }
