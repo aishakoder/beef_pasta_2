@@ -5,30 +5,30 @@ body {
 
 .top_container {
     display: flex;
-    flex-direction: row;
-
-
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .logo_con {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 3rem;
 }
 
 img {
-    align-self: first baseline;
+    
     
 }
 
 h3 {
-    align-self: ;
     font-size: 20px;
     font-weight: bold;
 }
 
 button {
-    align-self: first baseline;
+    font-weight: bold;
 }
 
 .container {
